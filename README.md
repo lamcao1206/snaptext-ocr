@@ -29,15 +29,21 @@ I came up with this tool while vibing to the **Lofi Girl** YouTube stream and co
   - `pytesseract==0.3.13`
   - `rumps==0.4.0`
 
-## Installation
+## How to use
 
-1. Clone this repository:
+1. **Clone this repository:**
    ```bash
    git clone https://github.com/lamcao1206/snaptext-ocr.git
    cd snaptext
    ```
-2. Run the application:
+2. **Run the application:**
    ```bash
    python main.py
    ```
    SnapText will appear in your macOS menu bar with the icon 📸.
+3. **Take a screenshot:**
+Use the macOS shortcut ```Cmd + Shift + 4``` to take a screenshot of the text you want to extract. Save the screenshot to your desktop. SnapText will automatically detect the new screenshot, extract the text, and copy it to your clipboard. A notification will appear confirming the text extraction.
+4. **Wanna access the last extracted text ?**
+Click on the SnapText menu bar icon and select "Show Last Text" to view the most recently extracted text.
+5. **Wanna quit the application ?**
+Click on the SnapText menu bar icon and select "Quit" to exit the application.
