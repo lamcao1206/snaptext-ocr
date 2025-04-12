@@ -2,6 +2,7 @@ packaging==24.2
 pillow==11.1.0
 pyobjc-core==11.0
 pyobjc-framework-cocoa==11.0
+pyobjc-framework-quartz==11.0
 pyperclip==1.9.0
 pytesseract==0.3.13
 rumps==0.4.0
